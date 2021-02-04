@@ -1,0 +1,9 @@
+﻿model_name,base_log_path,data_path,batch_size,learning_rate,layers_num,d_model,d_ff,h,dropout_rate,epochs
+SingleHead,./logs,/home/data/IMDb,32,0.01,2,512,2048,3,0.1,5
+SingleHead,./logs,/home/data/IMDb,64,0.01,6,512,2048,8,0.1,100
+SingleHead,./logs,/home/data/IMDb,128,0.01,6,512,2048,8,0.1,100
+SingleHead,./logs,/home/data/IMDb,256,0.01,6,512,2048,8,0.1,100
+SingleHead,./logs,/home/data/IMDb,256,0.05,6,512,2048,8,0.1,100
+SingleHead,./logs,/home/data/IMDb,256,0.1,6,512,2048,8,0.1,100
+SingleHead,./logs,/home/data/IMDb,256,0.07,6,512,2048,8,0.1,100
+SingleHead,./logs,/home/data/IMDb,256,0.5,6,512,2048,8,0.1,100
